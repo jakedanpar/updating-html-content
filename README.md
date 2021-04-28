@@ -1,2 +1,3 @@
-# updating-html-content
-A simple HTML/CSS/Javascript
+# Empty page of exercises
+
+An empty webpage for HTML/CSS/JavaScript exercises.
