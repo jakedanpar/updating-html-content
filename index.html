@@ -12,21 +12,28 @@
     <style></style>
   </head>
   <body>
-    <h1>indsutrial pop is making me gayer!</h1>
+    <h1>industrial pop is making me gayer!</h1>
     <p id="paragraph-1">
       So it's like.
     </p>
     <p id="paragraph-2">
       Almost like.
     </p>
+    <p id="paragraph-3">
+      Bloob bloob blOOb.
+    </p>
+        <p id="paragraph-4">
+      I keep having these conversations on Grindr dates.
+    </p>
     <button id="button-1">
-      And
+      Hit It
     </button>
     <!-- script -->
     <script>
       const lines = "It's like, I open SoundCloud, and line up every Sophie and Charli XCX collab, and somehow, my hips go heeeeeeeeeeeeeeey, hi, hellooo".split(",");
       const lines2 = "This one time, I could not even imagine going out, yeehaw, gettit".split(",");
-      const lines3 = "This one time, I could not even imagine going out, yeehaw, gettit".split(",");
+      const lines3 = "cling clang, screeeeoowwowwwwwwwwwwwww, pip pop peeww, vreeeet vrit, rakka takka voop voop voop".split(",");
+      const lines4 = "Does performing camp overthetop gayness mean that we are belittling ourselves or is that internalised homophobia?, Does playing the GBF just mean that I want to make women feel safe?, Why am I jealous of the clothes that queer babes wear and at the same time also jealous of the skater straighty bros and at teh same time the Norothcote mums that look like they've been ripped out of a 90s rave-themed fashion editorial?".split(",");
       const button = document.getElementById("button-1");
 
       function getRandomFromList(list) {
@@ -35,8 +42,12 @@
       function changeText() {
         const paragraph = document.getElementById("paragraph-1");
         const paragraph2 = document.getElementById("paragraph-2");
+        const paragraph3 = document.getElementById("paragraph-3");
+        const paragraph4 = document.getElementById("paragraph-4");
         paragraph.innerText = getRandomFromList(lines);
         paragraph2.innerText = getRandomFromList(lines2);
+        paragraph3.innerText = getRandomFromList(lines3);
+        paragraph4.innerText = getRandomFromList(lines4);
       }
       button.addEventListener("click", changeText);
     </script>
@@ -46,3 +57,29 @@
     <script src="https://button.glitch.me/button.js" defer></script>
   </body>
 </html>
+    <!-- custom font -->
+    <link <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+
+
+    <!-- styles -->
+    <style>
+      body {
+        font-family: 'Zen Dots', cursive;
+        margin: 2em;
+        background-color: #FFF;
+        color: #FF2F8C;
+        font-size: 1.2em;
+      }
+      h1 {
+        color: #FF2F8C;
+      }
+      #poem > div {
+        height: 1.2em;
+      }
+      .indent {
+        padding-left: 1em;
+      }
+    </style>
